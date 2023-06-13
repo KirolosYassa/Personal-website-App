@@ -1,3 +1,159 @@
+/*****************Tag Selectors*****************/
 body {
-  background-color: red;
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 50px auto 0;
+  color: #66bfbf;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: "Merriweather", serif;
+  margin-top: auto;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+  text-decoration: none;
+  font-size: 150%;
+  line-height: 2;
+  padding: 20px 10px 20px 10px;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+p {
+  color: #40514e;
+  font-family: "Merriweather", serif;
+  font-weight: 200;
+  font-size: 1.1rem;
+}
+
+hr {
+  width: 5%;
+  border-style: dotted solid;
+  border-width: 0 0 10px 0;
+  border-color: #eaf6f6;
+}
+
+/*****************Class Selectors*****************/
+.top-container {
+  background-color: #eaf6f6;
+  padding-top: 100px;
+  position: relative;
+  line-height: 2;
+}
+
+.awebprogrammer {
+  font-weight: normal;
+}
+
+.dev {
+  text-decoration: underline;
+}
+
+.profile {
+  margin: 70px auto 100px;
+}
+
+.profile-img {
+  width: 15%;
+  border-radius: 50%;
+}
+
+.profile-description {
+  width: 30%;
+  margin: auto;
+}
+
+.top-cloud {
+  /*position: absolute;*/
+  position: absolute;
+  top: 50px;
+  right: 400px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 400px;
+}
+
+.middle-container {
+  text-align: center;
+  line-height: 2;
+}
+
+.skills {
+  margin: 100px auto 150px auto;
+}
+
+.skill-row {
+  margin: 100px auto 100px;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills-img-1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills-img-2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 50px auto 100px auto;
+}
+
+.btnContactMe {
+  background-color: #1ab5ba;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  width: 10%;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+.btnContactMe:hover {
+  background-color: #2ed1b9;
+}
+.btnContactMe:active {
+  position: relative;
+  top: 1px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  padding: 10px auto 20px auto;
+  font-size: 0.85rem;
+}
+
+.bottom-container {
+  height: 100px;
+  text-align: center;
+  background-color: #66bfbf;
+  padding: 40px 0 20px;
 }
